@@ -1,0 +1,10 @@
+# Ignore images and binaries
+assets/**/*.png
+assets/**/*.jpg
+assets/**/*.jpeg
+assets/**/*.webp
+assets/**/*.gif
+assets/**/*.svg
+
+# Optionally skip huge vendor bundles (uncomment to skip)
+# assets/**/jquery*.js

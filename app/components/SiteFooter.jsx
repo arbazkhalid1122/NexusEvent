@@ -20,17 +20,17 @@ export default function SiteFooter() {
             <div
               id="w-node-dec07705-4e2c-7fb1-86d1-440fd5775381-65ecc27d"
               data-w-id="dec07705-4e2c-7fb1-86d1-440fd5775381"
-              className="flex flex-wrap gap-x-[2.25rem] gap-y-[1.125rem] justify-between items-start pb-6 text-[0.94rem] font-normal whitespace-nowrap"
+              className="flex flex-wrap gap-x-[2.25rem] gap-y-[1.125rem] justify-between items-start pb-6 text-[0.94rem] font-normal whitespace-nowrap text-white"
             >
-              <div className="footer-link-wrapper">
-                <a href="/about-us" className="text-[var(--color-text--inverse)] uppercase transition-colors duration-125 ease-[cubic-bezier(0.39,0.575,0.565,1)] hover:text-[var(--button--hover)]">About Us</a>
+              <div className="footer-link-wrapper" style={{color: 'white'}}>
+                <a href="/about-us" style={{color: 'white'}} className="!text-white uppercase transition-colors duration-125 ease-[cubic-bezier(0.39,0.575,0.565,1)] hover:text-[var(--button--hover)]">About Us</a>
               </div>
-              <div className="footer-link-wrapper"><a href="/cases" className="text-[var(--color-text--inverse)] uppercase transition-colors duration-125 ease-[cubic-bezier(0.39,0.575,0.565,1)] hover:text-[var(--button--hover)]">Cases</a></div>
+              <div className="footer-link-wrapper"><a href="/cases" className="!text-white uppercase transition-colors duration-125 ease-[cubic-bezier(0.39,0.575,0.565,1)] hover:text-[var(--button--hover)]">Cases</a></div>
               <div className="footer-link-wrapper">
-                <a href="/variant-events" className="text-[var(--color-text--inverse)] uppercase transition-colors duration-125 ease-[cubic-bezier(0.39,0.575,0.565,1)] hover:text-[var(--button--hover)]">Events</a>
+                <a href="/variant-events" className="!text-white uppercase transition-colors duration-125 ease-[cubic-bezier(0.39,0.575,0.565,1)] hover:text-[var(--button--hover)]">Events</a>
               </div>
               <div className="footer-link-wrapper">
-                <a href="/contact" className="text-[var(--color-text--inverse)] uppercase transition-colors duration-125 ease-[cubic-bezier(0.39,0.575,0.565,1)] hover:text-[var(--button--hover)]">Contact</a>
+                <a href="/contact" className="!text-white uppercase transition-colors duration-125 ease-[cubic-bezier(0.39,0.575,0.565,1)] hover:text-[var(--button--hover)]">Contact</a>
               </div>
             </div>
             <div
@@ -39,9 +39,9 @@ export default function SiteFooter() {
               className="footer-contacts"
             >
               <div className="flex justify-between items-start gap-x-12 gap-y-12 pb-6 text-[0.94rem] font-light whitespace-nowrap">
-                <a href="#" className="text-[var(--color-text--inverse)] inline-block max-w-full"><div>+1-555-123-4567</div></a>
+                <a href="#" className="!text-white inline-block max-w-full"><div>+1-555-123-4567</div></a>
                 <a href="#" className="inline-block">
-                  <div className="text-[var(--color-text--inverse)] uppercase transition-colors duration-125 ease-[cubic-bezier(0.39,0.575,0.565,1)] hover:text-[var(--button--hover)]">&nbsp;info@nexusevent.com</div>
+                  <div className="!text-white uppercase transition-colors duration-125 ease-[cubic-bezier(0.39,0.575,0.565,1)] hover:text-[var(--button--hover)]">&nbsp;info@nexusevent.com</div>
                 </a>
               </div>
               <div id="w-node-_97621f96-3204-e445-451f-ea070817d70d-65ecc27d" className="flex items-center justify-end gap-2">
@@ -122,10 +122,10 @@ export default function SiteFooter() {
                   </a>
                 </div>
                 <div className="text-xs font-medium leading-[145%]">
-                  <a href="/template/changelog" className="text-[var(--color-text--inverse)] uppercase transition-colors duration-125 ease-[cubic-bezier(0.39,0.575,0.565,1)] hover:text-[var(--button--hover)]">Changelog</a>
+                  <a href="/template/changelog" className="!text-white uppercase transition-colors duration-125 ease-[cubic-bezier(0.39,0.575,0.565,1)] hover:text-[var(--button--hover)]">Changelog</a>
                 </div>
                 <div className="text-xs font-medium leading-[145%]">
-                  <a href="/template/licensing" className="text-[var(--color-text--inverse)] uppercase transition-colors duration-125 ease-[cubic-bezier(0.39,0.575,0.565,1)] hover:text-[var(--button--hover)]">Licensing</a>
+                  <a href="/template/licensing" className="!text-white uppercase transition-colors duration-125 ease-[cubic-bezier(0.39,0.575,0.565,1)] hover:text-[var(--button--hover)]">Licensing</a>
                 </div>
               </div>
             </div>

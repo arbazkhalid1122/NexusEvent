@@ -2,8 +2,7 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const purgecssOptions = {
   content: [
-    './app/**/*.{js,jsx,ts,tsx}',
-    './index.html'
+    './app/**/*.{js,jsx,ts,tsx}'
   ],
   safelist: [
     // Layout + wrappers
@@ -29,6 +28,9 @@ const purgecssOptions = {
     /^w-icon-/, /^w--open/, /^w--active/, 'w-slider-mask', 'w-slide', 'w-slider-nav', 'w-slider-arrow-left', 'w-slider-arrow-right', 'w-slider-dot', 'w-slider-aria-label',
     '[data-nav-menu-open]'
   ],
+  keyframes: true,
+  fontFace: true,
+  variables: true,
   defaultExtractor: (content) => content.match(/[A-Za-z0-9-_:./%#]+/g) || []
 };
 

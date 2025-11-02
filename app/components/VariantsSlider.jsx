@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-export default function PrimaryCases() {
+export default function VariantsSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const slideCount = 4;
 
@@ -12,10 +12,13 @@ export default function PrimaryCases() {
     <section className="section">
       <div className="global-padding">
         <div className="section-heading">
-          <h2 className="heading-2-style">Our Primary Cases</h2>
+          <h2 className="heading-2-style">Our Variants Events</h2>
         </div>
         <div className="slider w-slider" role="region" aria-label="carousel">
-          <div className="mask-slider w-slider-mask" id="w-slider-mask-1">
+          <div
+            className="mask-slider w-slider-mask"
+            id="w-slider-mask-0"
+          >
             <div
               className="slides-track"
               style={{
@@ -28,11 +31,11 @@ export default function PrimaryCases() {
               <div className="cms-list-wrapper w-dyn-list">
                 <div role="list" className="cms-list w-dyn-items">
                   <div role="listitem" className="cms-card w-dyn-item">
-                    <a href="/cases" className="card-wrapper w-inline-block">
+                    <a href="/variant-events" className="card-wrapper w-inline-block">
                       <div className="card-thumbnail">
                         <img
                           className="thumbnail-card"
-                          src="/assets/cdn.prod.website-files.com/65f1f8f73e41e4620092820f/661902165d4d9c4112347043_lucas-davies-kmfY3pqnbnw-unsplash_.jpg"
+                          src="/assets/cdn.prod.website-files.com/65f1f8f73e41e4620092820f/6618ffdf5384fa9bd527119a_Camping_.jpg"
                           width="650"
                           height="277"
                           alt=""
@@ -41,9 +44,9 @@ export default function PrimaryCases() {
                         />
                       </div>
                       <div className="card-content">
-                        <h3>SparkFest 2024: Igniting Creativity</h3>
+                        <h3>Camping Embrace Nature</h3>
                         <div className="text-medium color-text-grey">
-                          SparkFest 2024 was an exhilarating event designed to inspire and ignite the flames of creativity among participants. It was asdsdsd gathering where ideas collided and inspiration shone brightest.
+                          Nexus Events' camping excursions offer an immersive escape into the heart of nature, where adventure awaits at every turn.
                         </div>
                       </div>
                       <div className="card-bottom">
@@ -64,21 +67,22 @@ export default function PrimaryCases() {
               <div className="cms-list-wrapper w-dyn-list">
                 <div role="list" className="cms-list w-dyn-items">
                   <div role="listitem" className="cms-card w-dyn-item">
-                    <a href="/cases" className="card-wrapper w-inline-block">
+                    <a href="/variant-events" className="card-wrapper w-inline-block">
                       <div className="card-thumbnail">
                         <img
-                          src="/assets/cdn.prod.website-files.com/65f1f8f73e41e4620092820f/660bfcac47a47caa0a4d30b7_Health.jpg"
-                          loading="lazy"
+                          className="thumbnail-card"
+                          src="/assets/cdn.prod.website-files.com/65f1f8f73e41e4620092820f/660c2265a355494f2329a7fe_expo.jpg"
                           width="650"
                           height="277"
                           alt=""
-                          className="thumbnail-card"
+                          loading="lazy"
                         />
                       </div>
                       <div className="card-content">
-                        <h3>Global Health Innovate Conference 2024</h3>
+                        <h3>Trade Events</h3>
                         <div className="text-medium color-text-grey">
-                          Tech Innovate Summit 2024 brings together industry leaders, innovators, and visionaries shaping technology's future. This event highlights AI, blockchain, cybersecurity, and more.
+                          Our trade events serve as pivotal platforms for industry growth, bringing together key players to explore trends and forge partnerships.
+                          With meticulous planning, we propel businesses towards success.
                         </div>
                       </div>
                       <div className="card-bottom">
@@ -99,11 +103,11 @@ export default function PrimaryCases() {
               <div className="cms-list-wrapper w-dyn-list">
                 <div role="list" className="cms-list w-dyn-items">
                   <div role="listitem" className="cms-card w-dyn-item">
-                    <a href="/cases" className="card-wrapper w-inline-block">
+                    <a href="/variant-events" className="card-wrapper w-inline-block">
                       <div className="card-thumbnail">
                         <img
                           className="thumbnail-card"
-                          src="/assets/cdn.prod.website-files.com/65f1f8f73e41e4620092820f/660bfc510bb7b3db4876983a_Sustainability.jpg"
+                          src="/assets/cdn.prod.website-files.com/65f1f8f73e41e4620092820f/660c20ae9dec99a29b42c79b_Corporate.webp"
                           width="650"
                           height="277"
                           alt=""
@@ -111,9 +115,10 @@ export default function PrimaryCases() {
                         />
                       </div>
                       <div className="card-content">
-                        <h3>Sustainability Solutions Forum 2024</h3>
+                        <h3>Corporate Events</h3>
                         <div className="text-medium color-text-grey">
-                          Sustainability Solutions Forum 2024 unites thought leaders and policymakers to address global sustainability challenges. Through discussions and workshops, participants explore strategies for a sustainable future.
+                          Specializing in corporate events, Nexus Events fosters connections and vibrant company cultures.
+                          With a focus on aligning with organizational goals and enhancing engagement, we ensure every gathering leaves a lasting impression.
                         </div>
                       </div>
                       <div className="card-bottom">
@@ -134,10 +139,10 @@ export default function PrimaryCases() {
               <div className="cms-list-wrapper w-dyn-list">
                 <div role="list" className="cms-list w-dyn-items">
                   <div role="listitem" className="cms-card w-dyn-item">
-                    <a href="/cases" className="card-wrapper w-inline-block">
+                    <a href="/variant-events" className="card-wrapper w-inline-block">
                       <div className="card-thumbnail">
                         <img
-                          src="/assets/cdn.prod.website-files.com/65f1f8f73e41e4620092820f/660bfbc84939de10044b06bf_tech.jpg"
+                          src="/assets/cdn.prod.website-files.com/65f1f8f73e41e4620092820f/660c217033253b148b5a0e30_Catering.jpg"
                           loading="lazy"
                           width="650"
                           height="277"
@@ -146,9 +151,9 @@ export default function PrimaryCases() {
                         />
                       </div>
                       <div className="card-content">
-                        <h3>Tech Innovate Summit 2024</h3>
+                        <h3>Catering Events</h3>
                         <div className="text-medium color-text-grey">
-                          Tech Innovate Summit 2024 brings together industry leaders, innovators, and visionaries shaping technology's future. This event highlights AI, blockchain, cybersecurity, and more.
+                          Nexus Events excels in catering events that tantalize taste buds and elevate hospitality. From intimate gatherings to grand celebrations, our events blend cuisine, presentation, and service seamlessly.
                         </div>
                       </div>
                       <div className="card-bottom">
@@ -170,7 +175,7 @@ export default function PrimaryCases() {
             className="button-left-slider-cms w-slider-arrow-left"
             role="button"
             tabIndex={0}
-            aria-controls="w-slider-mask-1"
+            aria-controls="w-slider-mask-0"
             aria-label="previous slide"
             onClick={goPrev}
           >
@@ -180,7 +185,7 @@ export default function PrimaryCases() {
             className="button-right-slider-cms w-slider-arrow-right"
             role="button"
             tabIndex={0}
-            aria-controls="w-slider-mask-1"
+            aria-controls="w-slider-mask-0"
             aria-label="next slide"
             onClick={goNext}
           >

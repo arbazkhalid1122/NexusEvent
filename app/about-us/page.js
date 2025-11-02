@@ -6,12 +6,12 @@ import SiteFooter from '../components/SiteFooter';
 
 export default function Page() {
   return (
-    <div className="main-wrapper">
+    <div className="relative">
       <Navbar />
       {/* Back-to-top anchor used by footer */}
-      <div id="Section-Hero" style={{display:'none'}}></div>
+      <div style={{display:'none'}}></div>
 
-      <section id="Hero-AboutUs" className="global-hero-section">
+      <section className="global-hero-section">
         <div className="global-padding">
           <div className="section-heading">
             <h1 className="heading-1-style color-text-white">About Nexus EVENT</h1>
@@ -34,7 +34,7 @@ export default function Page() {
             <div role="list" className="team-grid w-dyn-items">
               <div role="listitem" className="team-item w-dyn-item">
                 <div className="thumbnail-wrapper">
-                  <img src="/assets/images/testimonials/660c1db881a0536ccc4a9f92_Thumb%20Photo-3.png" loading="lazy" width="428" height="277" alt="" className="team-thumbnail" />
+                  <img src="https://cdn.prod.website-files.com/65f1f8f73e41e4620092820f/660ac8c6b8d3c96264f59000_Thumbnail.png" loading="lazy" width="428" height="277" alt="" className="team-thumbnail" />
                 </div>
                 <div className="team-content-wrapper">
                   <div className="team-content">
@@ -57,7 +57,7 @@ export default function Page() {
 
               <div role="listitem" className="team-item w-dyn-item">
                 <div className="thumbnail-wrapper">
-                  <img src="/assets/images/testimonials/660c1db83c79a4ee56e484b0_Thumb%20Photo-1.png" loading="lazy" width="428" height="277" alt="" className="team-thumbnail" />
+                  <img src="https://cdn.prod.website-files.com/65f1f8f73e41e4620092820f/660ac8e7bb0119c926f36f7e_Thumbnail-1.png" loading="lazy" width="428" height="277" alt="" className="team-thumbnail" />
                 </div>
                 <div className="team-content-wrapper">
                   <div className="team-content">
@@ -80,7 +80,7 @@ export default function Page() {
 
               <div role="listitem" className="team-item w-dyn-item">
                 <div className="thumbnail-wrapper">
-                  <img src="/assets/images/testimonials/660c1db806348c58b1430372_Thumb%20Photo.png" loading="lazy" width="428" height="277" alt="" className="team-thumbnail" />
+                  <img src="https://cdn.prod.website-files.com/65f1f8f73e41e4620092820f/660ac90390a05eb56f642181_Thumbnail-2.png" loading="lazy" width="428" height="277" alt="" className="team-thumbnail" />
                 </div>
                 <div className="team-content-wrapper">
                   <div className="team-content">
@@ -103,7 +103,7 @@ export default function Page() {
 
               <div role="listitem" className="team-item w-dyn-item">
                 <div className="thumbnail-wrapper">
-                  <img src="/assets/images/testimonials/660c1db86397c0b11c12f7af_Thumb%20Photo-2.png" loading="lazy" width="428" height="277" alt="" className="team-thumbnail" />
+                  <img src="https://cdn.prod.website-files.com/65f1f8f73e41e4620092820f/660ac9153c6e508d7f9eb08d_Thumbnail-3.png" loading="lazy" width="428" height="277" alt="" className="team-thumbnail" />
                 </div>
                 <div className="team-content-wrapper">
                   <div className="team-content">
@@ -126,7 +126,7 @@ export default function Page() {
 
               <div role="listitem" className="team-item w-dyn-item">
                 <div className="thumbnail-wrapper">
-                  <img src="/assets/images/testimonials/660c1db881a0536ccc4a9f92_Thumb%20Photo-3.png" loading="lazy" width="428" height="277" alt="" className="team-thumbnail" />
+                  <img src="https://cdn.prod.website-files.com/65f1f8f73e41e4620092820f/660ac92847ff749eefe7e8ff_Thumbnail-4.png" loading="lazy" width="428" height="277" alt="" className="team-thumbnail" />
                 </div>
                 <div className="team-content-wrapper">
                   <div className="team-content">
@@ -149,7 +149,7 @@ export default function Page() {
 
               <div role="listitem" className="team-item w-dyn-item">
                 <div className="thumbnail-wrapper">
-                  <img src="/assets/images/testimonials/660c1db83c79a4ee56e484b0_Thumb%20Photo-1.png" loading="lazy" width="428" height="277" alt="" className="team-thumbnail" />
+                  <img src="https://cdn.prod.website-files.com/65f1f8f73e41e4620092820f/660ac95a68e7ec7e9bf86a6e_Thumbnail-5.png" loading="lazy" width="428" height="277" alt="" className="team-thumbnail" />
                 </div>
                 <div className="team-content-wrapper">
                   <div className="team-content">

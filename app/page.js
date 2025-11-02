@@ -1,7 +1,8 @@
+
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Benefits from './components/Benefits';
-import Variants from './components/Variants';
+import VariantsSlider from './components/VariantsSlider';
 import Quote from './components/Quote';
 import PrimaryCases from './components/PrimaryCases';
 import CTA from './components/CTA';
@@ -16,7 +17,7 @@ export default function Page() {
       <Navbar />
       <Hero />
       <Benefits />
-      <Variants />
+      <VariantsSlider />
       <Quote />
       <PrimaryCases />
       <CTA />
@@ -24,7 +25,6 @@ export default function Page() {
       <Partners />
       <FAQ />
       <SiteFooter />
-      {/* TODO: convert remaining sections to components step by step */}
     </div>
   );
 }
